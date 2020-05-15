@@ -1603,9 +1603,11 @@ button:focus {
     0% {
       transform: scale(0); }
     50% {
-      transform: scale(1); }
+      transform: scale(1);
+      transform: translateY(-50%);}
     100% {
-      transform: scale(1); } }
+      transform: scale(1);
+      transform: translateY(-50%);} }
   @keyframes burger-e-s {
     0% {
       transform: scale(0); }
